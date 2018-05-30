@@ -17,7 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".ListViewAndScrollViewActivity" />
-        <activity android:name=".ExpandableListViewActivity"></activity>
+        <activity android:name=".ExpandableListViewActivity" />
+        <activity android:name=".GridViewAndScrollViewActivity"></activity>
     </application>
 
 </manifest>
