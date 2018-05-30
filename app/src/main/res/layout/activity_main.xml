@@ -7,9 +7,11 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:id="@+id/list_scrollview"/>
+        android:id="@+id/list_scrollview"
+        android:text="listviewAndscrollview"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:id="@+id/expandlistview"/>
+        android:id="@+id/expandlistview"
+        android:text="expandlistview"/>
 </LinearLayout>
