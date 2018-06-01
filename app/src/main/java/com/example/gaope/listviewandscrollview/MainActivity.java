@@ -21,9 +21,9 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        button1 = findViewById(R.id.list_scrollview);
-        button2 = findViewById(R.id.grid_scrollview);
-        button3 = findViewById(R.id.expandlistview);
+        button1 = (Button) findViewById(R.id.list_scrollview);
+        button2 = (Button) findViewById(R.id.grid_scrollview);
+        button3 = (Button) findViewById(R.id.expandlistview);
 
         button1.setOnClickListener(new View.OnClickListener() {
             @Override

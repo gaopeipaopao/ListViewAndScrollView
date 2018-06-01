@@ -29,7 +29,7 @@ public class ListViewAndScrollViewActivity extends AppCompatActivity {
         setContentView(R.layout.activity_list_view_and_scroll_view);
 
         init();
-        listView = findViewById(R.id.listview);
+        listView = (ListView) findViewById(R.id.listview);
         listAdapter = new ListViewAdapter(stringList,getBaseContext());
         listView.setAdapter(listAdapter);
     }

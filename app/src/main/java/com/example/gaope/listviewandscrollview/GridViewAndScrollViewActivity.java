@@ -30,7 +30,7 @@ public class GridViewAndScrollViewActivity extends AppCompatActivity {
         setContentView(R.layout.activity_grid_view_and_scroll_view);
 
         init();
-        gridView = findViewById(R.id.gridview);
+        gridView = (GridView) findViewById(R.id.gridview);
         listAdapter = new ListViewAdapter(stringList,getBaseContext());
         gridView.setAdapter(listAdapter);
     }
